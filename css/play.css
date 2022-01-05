@@ -1,0 +1,102 @@
+body{
+    /* background-image: url(/images/light.png ); */
+    /* background-image: url(/images/unnamed.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+nav{
+    text-align: center;
+}
+
+
+img{
+    width:200px;
+    min-height: 250px;
+    height:500px;
+}
+
+.col-mid-3{
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+img{
+    position: relative;
+    /* display: block; */
+    /* border-radius: 7px; */
+    overflow: hidden;
+    box-shadow: 0 15px 35px black;
+    transition: all ease 0.4s;
+}
+
+img:hover{
+    box-shadow:none;
+    transform: scale(0.98) translateY(5px);
+}
+ h2 {
+    
+    font-weight: bold;
+    text-align: center ;
+    color:cyan;
+}
+h4{
+    font-weight: bolder;
+    font-style: italic;
+    color:cyan;
+    font-size: 30px;
+
+}
+h2{
+    font-style: italic;
+}
+.songs, ul{
+    font-weight: bold;
+    /* text-align: center; */
+    color:white;
+}
+
+.typesongs{
+    font-weight: bold;
+    font-family: cursive;
+    font-style:italic ;
+    color:wheat;
+    text-align: center;
+}
+ 
+h3{
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.aplayer{
+    /* text-align: ; */
+    background-color: black;
+    color:cyan;
+
+
+}
+    
+
+@media screen and (max-width: 600px) {
+    nav {
+      float: none;
+      width: 100%;
+    }
+}
+#div1{
+    width: 100px;
+    height: 50px;
+    animation: mymove 5s infinite;
+    background-image:url(/images/billie.jpeg);
+    position: relative;
+}
+#div1{
+    animation-timing-function: linear;
+}
+@keyframes mymove{
+    from{left:0px;}
+    to{ left: 500px;}
+}
